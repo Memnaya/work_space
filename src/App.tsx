@@ -8,13 +8,24 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className='header'> /* навигация */
+        <img src="" alt="Label"/>
+        <ul className='header-nav'>
+          <li>
+            <a href="https://vite.dev" target="_blank">wi-fi приколы</a>
+          </li>
+          <li>
+            <a href="https://react.dev" target="_blank">кабель приколы</a>
+          </li>
+          <li>
+            <a href="https://react.dev" target="_blank">тут чето еще будет</a>
+          </li>
+        </ul>
+        <div className='header-sing-in'>
+          <a href="">
+            <img src="" alt="" />
+          </a>
+        </div>
       </div>
       <h1>Vite + React</h1>
       <div className="card">
