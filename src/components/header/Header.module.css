@@ -1,0 +1,10 @@
+.header {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.headerNav a {
+    color: var(--color-secondary);
+}
